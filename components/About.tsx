@@ -28,8 +28,8 @@ export default function About({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        src="../public/profil_photo.png"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-48 md:h-64 xl:w-[300px] xl:h-[400px]  bg-[#F7AB0A]/50"
+        src="about_photo.jpg"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-scale-down md:rounded-lg md:w-48 md:h-64 xl:w-[300px] xl:h-[400px]"
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibol">
