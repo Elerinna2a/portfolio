@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 
 type Props = {};
@@ -58,9 +59,11 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-          Get in touch
-        </p>
+        <Link href="#contact">
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+            Get in touch
+          </p>
+        </Link>
       </motion.div>
     </header>
   );
