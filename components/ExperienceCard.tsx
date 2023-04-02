@@ -21,16 +21,16 @@ export default function ExperienceCard({}: Props) {
         viewport={{
           once: true,
         }}
-        className="w-32 h-32 rounded-full object-cover object-center bg-[#F7AB0A]/50"
+        className="w-32 h-32 rounded-full object-cover object-center bg-[#9C4498]"
       ></motion.div>
 
       <div className="px-0 md:px-10 flex flex-col items-center">
         <h4 className="text-4xl font-light">Student</h4>
         <p className="font-bold text-2xl mt-1">Aflokkat</p>
         <div className="flex space-x-2 my-2">
-          <div className="w-10 h-10 rounded-full bg-[#F7AB0A]/50"></div>
-          <div className="w-10 h-10 rounded-full bg-[#F7AB0A]/50"></div>
-          <div className="w-10 h-10 rounded-full bg-[#F7AB0A]/50"></div>
+          <div className="w-10 h-10 rounded-full bg-[#9C4498]"></div>
+          <div className="w-10 h-10 rounded-full bg-[#9C4498]"></div>
+          <div className="w-10 h-10 rounded-full bg-[#9C4498]"></div>
           {/* tech used */}
           {/* tech used */}
           {/* tech used */}

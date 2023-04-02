@@ -20,7 +20,7 @@ export default function Projects({}: Props) {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/70">
+      <div className="relative w-full flex overflow-x-scroll overflow-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#9C4498]">
         {projects.map((project, i) => (
           <div
             key={project}
@@ -47,7 +47,7 @@ export default function Projects({}: Props) {
 
             <div className="space-y-10 px-0 mb:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#9C4498]">
                   Case Study {i + 1} of {projects.length}:
                 </span>{" "}
                 UPS clone
@@ -65,7 +65,7 @@ export default function Projects({}: Props) {
         ))}
       </div>
 
-      <div className="w-full absolute top-[25%] bg-[#F7AB0A]/10 left-0 h-[450px] -skew-y-6" />
+      <div className="w-full absolute top-[25%] bg-[#9C4498] left-0 h-[450px] -skew-y-6" />
     </motion.div>
   );
 }

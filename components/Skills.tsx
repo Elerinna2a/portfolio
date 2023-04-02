@@ -23,9 +23,9 @@ export default function Skills({ directionLeft }: Props) {
       </h3>
 
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm ">
-        Hover over a skill for currency proficiency
+        List of my current skills
       </h3>
-      <div className="grid grid-cols-6 gap-5">
+      <div className="grid grid-cols-6 gap-5 z-20">
         <motion.img
           initial={{
             x: directionLeft ? -200 : 200,
@@ -43,7 +43,7 @@ export default function Skills({ directionLeft }: Props) {
             scale: 1.2,
           }}
           src="skills/React-Dark.svg"
-          className="h-20 w-20 rounded-full border border-gray-500 object-cover filter md:h-12 md:w-12"
+          className="h-20 w-20 rounded-full border border-gray-500 object-cover filter"
           alt="react"
         />
         <motion.img

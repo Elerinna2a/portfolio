@@ -16,7 +16,7 @@ export default function About({}: Props) {
       }}
       className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         About
       </h3>
 
@@ -29,22 +29,32 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="about_photo.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-scale-down md:rounded-lg md:w-48 md:h-64 xl:w-[300px] xl:h-[400px]"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-scale-down md:rounded-lg md:w-48 md:h-64 xl:w-[300px] xl:h-[400px] z-10"
       />
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibol">
+      <div className="space-y-10 px-0 md:px-10 z-10">
+        <h4 className="text-4xl font-semibol z-10">
           Here is a{" "}
-          <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
+          <span className="underline decoration-[#9C4498] z-10">little</span>{" "}
           background
         </h4>
-        <p className="text-base">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          odio repellendus, dolores laboriosam necessitatibus tenetur
-          repudiandae rerum enim, illum veniam magni! Ipsum eum, dolorem fugit,
-          enim natus error cum voluptatum quia magnam quasi tenetur harum facere
-          culpa tempore illo beatae suscipit rerum aliquam quos non.
-          Consequuntur quas laudantium ullam corporis?
-        </p>
+        <div>
+          <p>
+            I am currently undergoing training at Aflokkat to become a web and
+            mobile application developer. I am learning about the profession of
+            a developer every day. In the projects section, you will find all of
+            my academic and personal projects.
+          </p>
+          <p>
+            By downloading my resume, you will find all the information about me
+            as well as my programming skills.
+          </p>
+          <a
+            className="mt-10 text-xl underline"
+            href="https://drive.google.com/u/0/uc?id=1RrmVb3WFjYyeEll3z8oDno2yE6XerBZf&amp;export=download"
+          >
+            Donwload my resume
+          </a>
+        </div>
       </div>
     </motion.div>
   );
