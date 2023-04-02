@@ -16,7 +16,7 @@ export default function About({}: Props) {
       }}
       className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         About
       </h3>
 
@@ -29,15 +29,15 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="about_photo.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-scale-down md:rounded-lg md:w-48 md:h-64 xl:w-[300px] xl:h-[400px] z-10"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] z-10"
       />
       <div className="space-y-10 px-0 md:px-10 z-10">
         <h4 className="text-4xl font-semibol z-10">
           Here is a{" "}
-          <span className="underline decoration-[#9C4498] z-10">little</span>{" "}
+          <span className="underline decoration-[#F7AB0A]/50 z-10">little</span>{" "}
           background
         </h4>
-        <div>
+        <div className="text-base flex flex-col">
           <p>
             I am currently undergoing training at Aflokkat to become a web and
             mobile application developer. I am learning about the profession of
@@ -49,7 +49,7 @@ export default function About({}: Props) {
             as well as my programming skills.
           </p>
           <a
-            className="mt-10 text-xl underline"
+            className="text-xl text-center p-5 underline space-y-4 decoration-[#F7AB0A]/50"
             href="https://drive.google.com/u/0/uc?id=1RrmVb3WFjYyeEll3z8oDno2yE6XerBZf&amp;export=download"
           >
             Donwload my resume

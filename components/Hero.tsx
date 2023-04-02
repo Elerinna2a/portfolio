@@ -15,17 +15,17 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <motion.img
-        className="rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="profil_photo.jpg"
       />
-      {/* <motion.div className="w-32 h-32 rounded-full object-cover object-center bg-[#9C4498]/50"></motion.div> */}
+      {/* <motion.div className="w-32 h-32 rounded-full object-cover object-center bg-[#F7AB0A]/50"></motion.div> */}
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Developer Student
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#9C4498" />
+          <Cursor cursorColor="#F7AB0A" />
         </h1>
         <div className="pt-5">
           <Link href="#about">
