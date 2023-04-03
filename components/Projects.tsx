@@ -55,6 +55,46 @@ export default function Projects({}: Props) {
                 >
                   E-commerce
                 </a>
+=======
+        {projects.map((project, i) => (
+          <div
+            key={project}
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+          >
+            <motion.img
+              initial={{
+                y: -300,
+                opacity: 0,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+              whileInView={{
+                y: 0,
+                opacity: 1,
+              }}
+              viewport={{
+                once: true,
+              }}
+              src="https://picsum.photos/400/200"
+              alt=""
+            />
+
+            <div className="space-y-10 px-0 mb:px-10 max-w-6xl">
+              <h4 className="text-4xl font-semibold text-center">
+                <span className="underline decoration-[#F7AB0A]">
+                  Case Study {i + 1} of {projects.length}:
+                </span>{" "}
+                Lorem, ipsum dolor.
+              </h4>
+
+              <p className="text-lg text-center md:text-left">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Repellendus possimus dolores, dolor ratione a expedita ullam
+                quas debitis nesciunt at. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Quisquam sequi perferendis modi,
+                vero ipsa nemo illum minima ullam accusamus incidunt?
+>>>>>>> Stashed changes
               </p>
             </span>
           </div>
