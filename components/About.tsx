@@ -28,7 +28,7 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="about_photo.jpg"
-        className="-mb-32 flex-shrink-0 w-24 h-24 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] z-10"
+        className="-mb-32 flex-shrink-0 w-28 h-28 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] z-10"
       />
       <div className="space-y-10 px-0 md:px-10 z-10">
         <h4 className="text-4xl font-semibol z-10">
@@ -48,7 +48,7 @@ export default function About({}: Props) {
             as well as my programming skills.
           </p>
           <a
-            className="text-xl text-center p-5 underline space-y-4 decoration-[#F7AB0A]/50"
+            className="text-xl text-center pt-5 underline space-y-4 decoration-[#F7AB0A]/50 max-w-fit mx-auto md:mx-0"
             href="https://drive.google.com/u/0/uc?id=1RrmVb3WFjYyeEll3z8oDno2yE6XerBZf&amp;export=download"
           >
             Donwload my resume

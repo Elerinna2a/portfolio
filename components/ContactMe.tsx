@@ -19,7 +19,7 @@ export default function ContactMe({}: Props) {
   return (
     <div className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       {" "}
-      <h3 className="absolute top-12 uppercase tracking-[20px] text-gray-500 text-2xl  md:text-lg">
+      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl  md:text-lg">
         Contact
       </h3>
       <div className="flex flex-col space-y-10">

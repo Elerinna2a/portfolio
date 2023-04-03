@@ -29,7 +29,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -44,14 +44,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/React-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-14 w-1h-14 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="react"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -66,15 +66,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/NodeJS-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 
-            md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="NodeJs"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -89,14 +88,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/TailwindCSS-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Tailwind"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -111,14 +110,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/TypeScript.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Typesript"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -133,14 +132,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/JavaScript.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="javascript"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -155,14 +154,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/HTML.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="html"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -177,14 +176,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/CSS.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="CSS"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -200 : 200,
+              x: directionLeft ? -150 : 150,
               opacity: 0,
               scale: 1,
             }}
@@ -199,14 +198,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/PHP-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="PHP"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -221,14 +220,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Sass.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Sass"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -243,14 +242,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Symfony-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Symfony"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -265,14 +264,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/MySQL-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="MySQL"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -287,14 +286,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Django.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Django"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -309,14 +308,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/ExpressJS-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="ExpressJS"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -331,14 +330,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Github-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Github"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -353,14 +352,14 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Kotlin-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Kotlin"
           />
         </div>
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 200 : -200,
+              x: directionRight ? 150 : -150,
               opacity: 0,
               scale: 1,
             }}
@@ -375,7 +374,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
               scale: 1.2,
             }}
             src="skills/Java-Dark.svg"
-            className="rounded-full border border-gray-500 object-cover filter h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 group-hover:grayscale transition duration-300 ease-in-out"
+            className="rounded-full border border-gray-500 object-cover filter h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 group-hover:grayscale transition duration-300 ease-in-out"
             alt="Java"
           />
         </div>
@@ -386,9 +385,9 @@ export default function Skills({ directionLeft, directionRight }: Props) {
 
 {
   /*
-  <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out group-hover:bg-white h-16 w-16 md:w-24 md:h-24 xl:w-32 xl:h-32 rounded-full z-0">
+  <div className="absolute opacity-0 group-hover:opacity-150 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 rounded-full z-0">
    <div className="flex items-center justify-center h-full">
-  <p="text-3xl font-bold text-black opacity-100">100%</p>
+  <p="text-3xl font-bold text-black opacity-150">150%</p>
 </div> 
 </div>
 */
