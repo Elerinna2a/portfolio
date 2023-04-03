@@ -52,7 +52,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="h-6 w-6 bg-transparent text-[#FC9A4A]/70 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              className="h-6 w-6 bg-transparent hover:bg-[#FC9A4A]/70 hover:text-black text-[#FC9A4A]/70 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
             >
               <path
                 strokeLinecap="round"

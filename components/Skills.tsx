@@ -17,19 +17,19 @@ export default function Skills({ directionLeft, directionRight }: Props) {
       transition={{
         duration: 1.5,
       }}
-      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
+      className="flex flex-col text-center md:text-left max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center gap-10"
     >
-      <h3 className="absolute top-32 md:top-20 xl:top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="top-32 md:top-20 xl:top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <h3 className="absolute top-52 md:top-40 xl:top-28 uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3 className="top-52 md:top-40 xl:top-28 uppercase tracking-[3px] text-gray-500 text-sm">
         List of my current skills
       </h3>
       <div className="grid grid-cols-4 gap-5">
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -51,7 +51,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -73,7 +73,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -95,7 +95,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -117,7 +117,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -139,7 +139,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -161,7 +161,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -183,7 +183,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionLeft ? -150 : 150,
+              x: directionLeft ? -100 : 100,
               opacity: 0,
               scale: 1,
             }}
@@ -205,7 +205,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -227,7 +227,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -249,7 +249,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -271,7 +271,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -293,7 +293,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -315,7 +315,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -337,7 +337,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -359,7 +359,7 @@ export default function Skills({ directionLeft, directionRight }: Props) {
         <div className="group relative flex cursor-pointer">
           <motion.img
             initial={{
-              x: directionRight ? 150 : -150,
+              x: directionRight ? 100 : -100,
               opacity: 0,
               scale: 1,
             }}
@@ -385,9 +385,9 @@ export default function Skills({ directionLeft, directionRight }: Props) {
 
 {
   /*
-  <div className="absolute opacity-0 group-hover:opacity-150 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 rounded-full z-0">
+  <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out group-hover:bg-white h-14 w-14 md:w-20 md:h-20 xl:w-28 xl:h-28 rounded-full z-0">
    <div className="flex items-center justify-center h-full">
-  <p="text-3xl font-bold text-black opacity-150">150%</p>
+  <p="text-3xl font-bold text-black opacity-100">100%</p>
 </div> 
 </div>
 */
