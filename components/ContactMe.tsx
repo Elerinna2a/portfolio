@@ -23,14 +23,14 @@ export default function ContactMe({}: Props) {
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
-        <h4 className="flex flex-col xl:flex-row text-xl font-semibold text-center">
+        <h4 className="text-lg xl:text-xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#00CAD5] underline">Lets talk.</span>
         </h4>
         <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#00CAD5] h-7 w-7 animate-pulse" />
-            <p className="text-xl">1234567890</p>
+            <p className="text-xl">06.29.39.35.95</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#00CAD5] h-7 w-7 animate-pulse" />

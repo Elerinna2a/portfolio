@@ -18,7 +18,7 @@ export default function Hero({}: Props) {
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="profil_photo.jpg"
       />
-      {/* <motion.div className="w-32 h-32 rounded-full object-cover object-center bg-[#00CAD5]/50"></motion.div> */}
+      {/* <motion.div className="w-32 h-32 rounded-full object-cover object-center bg-[#00CAD5]"></motion.div> */}
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Developer Student
