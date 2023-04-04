@@ -49,7 +49,7 @@ export default function About({}: Props) {
           </p>
           <a
             className="text-xl text-center pt-5 underline space-y-4 decoration-[#00CAD5] max-w-fit mx-auto md:mx-0"
-            href="https://drive.google.com/u/0/uc?id=1RrmVb3WFjYyeEll3z8oDno2yE6XerBZf&amp;export=download"
+            href="https://drive.google.com/u/0/uc?id=1VnoHIUo7MnkfEV0GvZbp-DU49P-2RP2v&export=download"
           >
             Donwload my resume
           </a>

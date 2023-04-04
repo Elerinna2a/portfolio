@@ -19,7 +19,7 @@ export default function Projects({}: Props) {
       </h3>
       {/* ecommerce */}
       <div className="relative w-full flex overflow-x-scroll overflow-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00CAD5]">
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 xl:p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -46,16 +46,14 @@ export default function Projects({}: Props) {
               Creating a first portfolio with a simplistic design to introduce
               myself, using #HTML5 #SASS #JAVASCRIPT.
             </span>{" "}
-            <p className="xl:text-xl">#HTML5 #SASS #JAVASCRIPT.</p>
-            <p className="text-center mt-5 hover:underline">
-              To github:{" "}
-              <a target="_blank" href="https://github.com/Elerinna2a/ecommerce">
-                E-commerce
-              </a>
-            </p>
+            <a target="_blank" href="https://github.com/Elerinna2a/ecommerce">
+              <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
+                To github: E-commerce
+              </p>
+            </a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 xl:p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -82,16 +80,14 @@ export default function Projects({}: Props) {
               CCreating a first portfolio with a simplistic design to introduce
               myself, using #HTML5 #SASS #JAVASCRIPT.
             </span>{" "}
-            <p className="xl:text-xl">#HTML5 #SASS #JAVASCRIPT.</p>
-            <p className="text-center mt-5 hover:underline">
-              To github:{" "}
-              <a target="_blank" href="https://antoabellan.netlify.app/">
-                https://antoabellan.netlify.app/
-              </a>
-            </p>
+            <a target="_blank" href="https://antoabellan.netlify.app/">
+              <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
+                To github: https://antoabellan.netlify.app/
+              </p>
+            </a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 xl:p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -126,17 +122,14 @@ export default function Projects({}: Props) {
               database management, all using a MonoRepository mode with{" "}
               <span className="underline decoration-[#00CAD5]">Turbo</span>.{" "}
             </span>
-            <p className="text-center">
-              <a
-                target="_blank"
-                href="https://github.com/Elerinna2a/projetRTSX"
-              >
-                Projet MonoRepo ReactTSX
-              </a>
-            </p>
+            <a target="_blank" href="https://github.com/Elerinna2a/projetRTSX">
+              <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
+                To github: Projet MonoRepo ReactTSX
+              </p>
+            </a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 xl:p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -165,15 +158,15 @@ export default function Projects({}: Props) {
                 <span className="underline decoration-[#00CAD5]">blog</span>{" "}
                 with Symfony. With admin dashbord, $twig{" "}
               </p>
-              <p className="text-center pt-5">
-                <a target="_blank" href="https://github.com/Elerinna2a/blog">
-                  Symfony Project
-                </a>
-              </p>
+              <a target="_blank" href="https://github.com/Elerinna2a/blog">
+                <p className="text-center pt-5 hover:scale-125 transition duration-500 ease-in-out">
+                  To github: Symfony Project
+                </p>
+              </a>
             </span>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 xl:p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -201,11 +194,16 @@ export default function Projects({}: Props) {
                 Creating a Django project with authentication, complete CRUD
                 functionality, page restrictions, etc.
               </p>
-              <p className="text-center pt-5">
-                <a target="_blank" href="https://github.com/Elerinna2a/Django">
-                  Django Project
-                </a>
-              </p>
+
+              <a
+                className="decoration-none"
+                target="_blank"
+                href="https://github.com/Elerinna2a/Django"
+              >
+                <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
+                  To github: Django Project
+                </p>
+              </a>
             </span>
           </div>
         </div>
