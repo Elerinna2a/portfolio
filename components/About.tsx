@@ -33,7 +33,7 @@ export default function About({}: Props) {
       <div className="space-y-10 px-0 md:px-10 z-10">
         <h4 className="text-4xl font-semibol z-10">
           Here is a{" "}
-          <span className="underline decoration-[#F7AB0A]/50 z-10">little</span>{" "}
+          <span className="underline decoration-[#00CAD5]/50 z-10">little</span>{" "}
           background
         </h4>
         <div className="text-base flex flex-col">
@@ -48,7 +48,7 @@ export default function About({}: Props) {
             as well as my programming skills.
           </p>
           <a
-            className="text-xl text-center pt-5 underline space-y-4 decoration-[#F7AB0A]/50 max-w-fit mx-auto md:mx-0"
+            className="text-xl text-center pt-5 underline space-y-4 decoration-[#00CAD5]/50 max-w-fit mx-auto md:mx-0"
             href="https://drive.google.com/u/0/uc?id=1RrmVb3WFjYyeEll3z8oDno2yE6XerBZf&amp;export=download"
           >
             Donwload my resume

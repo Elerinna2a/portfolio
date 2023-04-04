@@ -25,19 +25,19 @@ export default function ContactMe({}: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="flex flex-col xl:flex-row text-xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="decoration-[#F7AB0A] underline">Lets talk.</span>
+          <span className="decoration-[#00CAD5] underline">Lets talk.</span>
         </h4>
         <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#00CAD5] h-7 w-7 animate-pulse" />
             <p className="text-xl">1234567890</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <EnvelopeIcon className="text-[#00CAD5] h-7 w-7 animate-pulse" />
             <p className="text-xl">abellan.antony@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#00CAD5] h-7 w-7 animate-pulse" />
             <p className="text-xl">123 developer Lane</p>
           </div>
 
@@ -72,7 +72,7 @@ export default function ContactMe({}: Props) {
             />
             <button
               type="submit"
-              className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold"
+              className="bg-[#00CAD5] py-5 px-10 rounded-md text-black font-bold"
             >
               {" "}
               Submit{" "}

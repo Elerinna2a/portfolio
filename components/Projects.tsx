@@ -18,7 +18,7 @@ export default function Projects({}: Props) {
         Projects
       </h3>
       {/* ecommerce */}
-      <div className="relative w-full flex overflow-x-scroll overflow-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]">
+      <div className="relative w-full flex overflow-x-scroll overflow-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00CAD5]">
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
             initial={{
@@ -116,15 +116,15 @@ export default function Projects({}: Props) {
             </h4>
             <span className="text-lg text-center md:text-left xl:text-center">
               Project to create a{" "}
-              <span className="underline decoration-[#F7AB0A]">WebApp</span>{" "}
+              <span className="underline decoration-[#00CAD5]">WebApp</span>{" "}
               with a complete CRUD. I used{" "}
-              <span className="underline decoration-[#F7AB0A]">ReactTS</span>,{" "}
-              <span className="underline decoration-[#F7AB0A]">Chakra-ui</span>
-              <span className="underline decoration-[#F7AB0A]">Typescript</span>
+              <span className="underline decoration-[#00CAD5]">ReactTS</span>,{" "}
+              <span className="underline decoration-[#00CAD5]">Chakra-ui</span>
+              <span className="underline decoration-[#00CAD5]">Typescript</span>
               with{" "}
-              <span className="underline decoration-[#F7AB0A]">Prisma</span> for
+              <span className="underline decoration-[#00CAD5]">Prisma</span> for
               database management, all using a MonoRepository mode with{" "}
-              <span className="underline decoration-[#F7AB0A]">Turbo</span>.{" "}
+              <span className="underline decoration-[#00CAD5]">Turbo</span>.{" "}
             </span>
             <p className="text-center">
               <a
@@ -162,7 +162,7 @@ export default function Projects({}: Props) {
             <span className="text-lg text-center md:text-left">
               <p>
                 Project to create a{" "}
-                <span className="underline decoration-[#F7AB0A]">blog</span>{" "}
+                <span className="underline decoration-[#00CAD5]">blog</span>{" "}
                 with Symfony. With admin dashbord, $twig{" "}
               </p>
               <p className="text-center pt-5">
@@ -210,7 +210,7 @@ export default function Projects({}: Props) {
           </div>
         </div>
       </div>
-      <div className="w-full absolute top-[25%] bg-[#F7AB0A] left-0 h-[450px] -skew-y-6" />
+      <div className="w-full absolute top-[25%] bg-[#00CAD5] left-0 h-[450px] -skew-y-6" />
     </motion.div>
   );
 }

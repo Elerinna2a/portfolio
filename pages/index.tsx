@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#FC9A4A]/70 scroll-smooth">
+    <div className="bg-[#0A0A0A] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00CAD5]/70 scroll-smooth">
       <Head>
         <title>Antony App</title>
       </Head>
@@ -52,7 +52,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="h-6 w-6 bg-transparent hover:bg-[#FC9A4A]/70 hover:text-black text-[#FC9A4A]/70 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              className="h-6 w-6 bg-transparent hover:bg-[#00CAD5]/70 hover:text-black text-[#00CAD5]/70 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
             >
               <path
                 strokeLinecap="round"
