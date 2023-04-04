@@ -162,12 +162,50 @@ export default function Projects({}: Props) {
             <span className="text-lg text-center md:text-left">
               <p>
                 Project to create a{" "}
-                <span className="underline decoration-[#F7AB0A]">WebApp</span>{" "}
-                with Symfony.
+                <span className="underline decoration-[#F7AB0A]">blog</span>{" "}
+                with Symfony. With admin dashbord, $twig{" "}
               </p>
-              <a target="_blank" href="https://github.com/Elerinna2a/blog">
-                Symfony Project
-              </a>
+              <p className="text-center pt-5">
+                <a target="_blank" href="https://github.com/Elerinna2a/blog">
+                  Symfony Project
+                </a>
+              </p>
+            </span>
+          </div>
+        </div>
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+          <motion.img
+            initial={{
+              y: -300,
+              opacity: 0,
+            }}
+            transition={{
+              duration: 1.2,
+            }}
+            whileInView={{
+              y: 0,
+              opacity: 1,
+            }}
+            viewport={{
+              once: true,
+            }}
+            src="python-django.png"
+            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+          />
+          <div className="space-y-10 px-0 mb:px-10 max-w-6xl">
+            <h4 className="text-4xl font-semibold text-center">
+              Django project
+            </h4>
+            <span className="text-lg text-center md:text-left">
+              <p>
+                Creating a Django project with authentication, complete CRUD
+                functionality, page restrictions, etc.
+              </p>
+              <p className="text-center pt-5">
+                <a target="_blank" href="https://github.com/Elerinna2a/Django">
+                  Django Project
+                </a>
+              </p>
             </span>
           </div>
         </div>
