@@ -17,9 +17,9 @@ export default function ContactMe({}: Props) {
   };
 
   return (
-    <div className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    <div className="flex flex-col h-screen text-center md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center">
       {" "}
-      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl  md:text-lg">
+      <h3 className="top-16 uppercase tracking-[20px] text-gray-500 text-2xl  md:text-lg">
         Contact
       </h3>
       <div className="flex flex-col space-y-5 md:space-y-7 xl:space-y-10">
@@ -45,7 +45,7 @@ export default function ContactMe({}: Props) {
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-col space-y-2 w-fit mx-auto"
           >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col xl:flex-row gap-2">
               <input
                 {...register("name")}
                 placeholder="Name"

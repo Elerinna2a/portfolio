@@ -36,7 +36,7 @@ export default function Projects({}: Props) {
               once: true,
             }}
             src="ecommerce.png"
-            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+            className="h-56 w-96 md:h-[300px] md:w-[500px]"
           />
           <div className="space-y-5 px-0 mb:px-10 max-w-6xl text-center">
             <h4 className="text-4xl font-semibold text-center xl:text-6xl mb-4">
