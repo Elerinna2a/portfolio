@@ -70,7 +70,7 @@ export default function Projects({}: Props) {
               once: true,
             }}
             src="firstportfolio.png"
-            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[300px] xl:w-[500px]"
           />
           <div className="space-y-5 px-0 mb:px-10 max-w-6xl text-center">
             <h4 className="text-4xl font-semibold text-center xl:text-6xl mb-4">
@@ -104,23 +104,15 @@ export default function Projects({}: Props) {
               once: true,
             }}
             src="typescript-cover.jpg"
-            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[300px] xl:w-[500px]"
           />
           <div className="space-y-5 px-0 mb:px-10 max-w-6xl">
             <h4 className="text-4xl font-semibold text-center mb-2">
               WebAPP Project
             </h4>
             <span className="text-lg text-center md:text-left xl:text-center">
-              Project to create a{" "}
-              <span className="underline decoration-[#00CAD5]">WebApp</span>{" "}
-              with a complete CRUD. I used{" "}
-              <span className="underline decoration-[#00CAD5]">ReactTS</span>,{" "}
-              <span className="underline decoration-[#00CAD5]">Chakra-ui</span>
-              <span className="underline decoration-[#00CAD5]">Typescript</span>
-              with{" "}
-              <span className="underline decoration-[#00CAD5]">Prisma</span> for
-              database management, all using a MonoRepository mode with{" "}
-              <span className="underline decoration-[#00CAD5]">Turbo</span>.{" "}
+              Project to create a WebApp with a complete CRUD. Using #TYPESCRIPT
+              #REACT #CHAKRA-UI #PRISMA
             </span>
             <a target="_blank" href="https://github.com/Elerinna2a/projetRTSX">
               <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
@@ -146,20 +138,20 @@ export default function Projects({}: Props) {
               once: true,
             }}
             src="symfony.png"
-            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[300px] xl:w-[500px]"
           />
           <div className="space-y-10 px-0 mb:px-10 max-w-6xl">
             <h4 className="text-4xl font-semibold text-center">
-              WebAPP Project
+              Symfony project
             </h4>
             <span className="text-lg text-center md:text-left">
-              <p>
-                Project to create a{" "}
-                <span className="underline decoration-[#00CAD5]">blog</span>{" "}
-                with Symfony. With admin dashbord, $twig{" "}
-              </p>
-              <a target="_blank" href="https://github.com/Elerinna2a/blog">
-                <p className="text-center pt-5 hover:scale-125 transition duration-500 ease-in-out">
+              <p>Creating a complete biblio CRUD with symfony.</p>
+              <a
+                className="decoration-none"
+                target="_blank"
+                href="https://github.com/Elerinna2a/Django"
+              >
+                <p className="text-center mt-5 hover:scale-125 transition duration-500 ease-in-out">
                   To github: Symfony Project
                 </p>
               </a>
@@ -183,7 +175,7 @@ export default function Projects({}: Props) {
               once: true,
             }}
             src="python-django.png"
-            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[400px] xl:w-[600px]"
+            className="h-56 w-96 md:h-[300px] md:w-[500px] xl:h-[300px] xl:w-[500px]"
           />
           <div className="space-y-10 px-0 mb:px-10 max-w-6xl">
             <h4 className="text-4xl font-semibold text-center">
